@@ -200,7 +200,7 @@ private extension PasswordInputView {
     }
     
     func tappedAnimation(animations: @escaping () -> (), completion: (() -> ())?) {
-        UIView.animate(withDuration: 0.25, delay: 0, options: [.allowUserInteraction, .beginFromCurrentState], animations: animations) { _ in
+        UIView.animate(withDuration: 0, delay: 0, options: [.allowUserInteraction, .beginFromCurrentState], animations: animations) { _ in
             completion?()
         }
     }
