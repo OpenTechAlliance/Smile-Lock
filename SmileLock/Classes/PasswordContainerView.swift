@@ -84,7 +84,7 @@ open class PasswordContainerView: UIView {
         }
     }
     
-    open var touchAuthenticationReason = "Touch to unlock"
+    open var touchAuthenticationReason = NSLocalizedString("Touch to unlock", comment: "")
     
     //MARK: AutoLayout
     open var width: CGFloat = 0 {
